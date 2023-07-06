@@ -52,3 +52,34 @@
     color: white;
     border-radius: 5px;
 }
+.icon {
+    width: 100px;
+}
+.about-title {
+    text-align: center;
+    margin: 20px 0;
+}
+.box {
+    width: 230px;
+    height: 320px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.box-btn {
+    background-color: gray;
+    margin-top: 10px;
+}
+
+.box-title {
+    padding: 10px;
+}
+.box-description {
+    padding: 5px;
+}
+.service-container {
+    display: flex;
+    justify-content: space-around;
+}
