@@ -55,14 +55,45 @@
 .icon {
     width: 100px;
 }
-.about-title {
+.about-us {
+    padding: 30px 0;
+}
+.about-us > h1 {
     text-align: center;
-    margin: 20px 0;
+    margin-bottom: 30px;
+    font-size: 55px;
+    font-weight: bold;
+}
+.about-us > .about-container {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.about-img img{
+    width: 350px;
+}
+.about-text {
+    width: 500px;
+}
+.about-text h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.service-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+.service-sec {
+    background-color: #181818;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .box {
     width: 230px;
-    height: 320px;
-    box-shadow: 4px 4px 15px gray;
+    border-radius: 10px;
+    opacity: 90%;
+    box-shadow: 4px 4px 30px gray;
     background-color: black;
     text-align: center;
     color: white;
